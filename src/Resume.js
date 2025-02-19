@@ -6,7 +6,7 @@ const Resume = () => {
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-blue-600 mb-2">Srinivas</h1>
         <p className="text-lg text-gray-600">Software Developer</p>
-        <p className="text-lg text-gray-600">Email: srinivas1997@example.com | Phone: +91-1234567890</p>
+        <p className="text-lg text-gray-600">Email: srinivas1997@gmail.com | Phone: +91-9xxxxxxxx2</p>
       </header>
 
       <section className="mb-8">
@@ -36,17 +36,22 @@ const Resume = () => {
           <h3 className="text-xl font-bold text-gray-800">Software Developer at PolygonGeo</h3>
           <p className="text-gray-600">Mar 2023 - Present</p>
           <ul className="list-disc list-inside text-gray-700">
+            <li>Developed POC, to show case the template before developing entire project </li>
+            <li>Used AWS S3 to store images, videos</li>
+            <li>Used My SQL to store data, metadata of the geo location, S3 files</li>
+            <li>Node js and Express js to develop restful apis and backend to fetch data from S3, database</li>
+            <li>React js for writing UI logic for form validations, api calling</li>
+            <li>Tailwind css for ease and rich UI development</li>
+            <li>MapBox, Matterport for loading maps, images, videos</li>
             <li>Developed and maintained an admin panel, APIs, and user interfaces for various web applications.</li>
-            <li>Collaborated with cross-functional teams to define, design, and ship new features.</li>
-            <li>Improved application performance and user experience through code optimization and refactoring.</li>
           </ul>
         </div>
         <div className="mb-4">
           <h3 className="text-xl font-bold text-gray-800">Internship at Pragmatic Systems</h3>
-          <p className="text-gray-600">[Dates]</p>
+          <p className="text-gray-600">6 Months</p>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Assisted in the development of web applications by creating and integrating APIs, building user interfaces, and performing code reviews.</li>
-            <li>Gained hands-on experience with full-stack development and agile methodologies.</li>
+            <li>Revamped Entire UI based on New UX designs</li>
+            <li>Changed existing apis according to restful standards.</li>
           </ul>
         </div>
       </section>
